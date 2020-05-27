@@ -1,0 +1,141 @@
+a{
+	color:#222222;
+	text-decoration: none;		
+}
+
+a:visited{
+	color:#222222;
+	text-decoration: none;		
+}
+body{
+	background-color:#222222;;
+	font-family: "Segoe UI", Verdana, serif;
+	font-size:12pt;
+	margin:0;
+	padding:0;  
+
+}
+
+table {
+	border : 2px black inset;
+	margin-left:  10px;
+	margin-bottom: 20px;
+	width : 40%;
+}
+ th{
+ 	font-family: Arial; 
+ 	font-style: italic;
+ }
+ 
+ mark{
+	background-color:#4682B4;
+}
+
+#header{
+	width:100%;
+	height:150px;
+	box-shadow:0 0 20px #000000;
+	border-bottom:solid #444444 8px;	
+	background: transparent url('../images/couverture.jpg') no-repeat;	
+	display:block;
+
+}
+
+
+.colonne {
+	vertical-align:middle;
+	color:#B0C4DE;
+	font-size:32px;
+	font-weight:bold;		
+	text-shadow:1px 1px #B0C4DE, 2px 2px #000000;
+	margin-left: 100px;	
+	margin-top: 20px;
+	font-style: italic;
+}
+
+#entete{
+	width:1050px;
+	margin:auto;
+	display:table
+}
+#menuhaut{
+	text-align:center;
+	margin-top: 20px;
+
+}
+#corps{
+	float:left;
+	width: 100%;
+	background-color:#DCDCDC;
+	height: 700px;
+	overflow: scroll;
+	overflow-x: hidden;
+	
+}
+
+
+#formCenter{
+	text-align: center;
+	margin-top: 30px;
+}
+#reponse{
+	text-align: center;
+	margin-top: 70px;
+}
+h1{
+	text-align: center;
+}
+#formh input{
+	height: 50px;
+}
+#interieur {
+	width:95%;
+	box-shadow:0 0 20px #000000;
+	border-bottom:solid #444444 8px;
+	margin-top: 10px;	
+}
+
+#liste{
+	text-align: center;
+
+}
+input, textarea, select {
+ border:1px solid #4682B4;
+ border-radius:5px;
+ width:200px;
+ box-shadow:1px 1px 2px #2F4F4F inset;
+ }
+textarea{
+
+}
+#spacer {     
+  clear: both; 
+}
+
+
+label{
+	font-size:12pt;
+   font-weight:bold;	
+}
+
+h1{
+	text-shadow:1px 1px 2px #333333;	
+}
+
+
+* a:hover{
+
+	text-decoration: underline;
+}
+#menu a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+
+}
+
+#connect a{
+	color:#222222;
+	font-weight:bold;
+	text-decoration: none;	
+}
+#connect a :visited{
